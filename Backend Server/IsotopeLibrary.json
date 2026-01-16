@@ -1,0 +1,732 @@
+{
+  "isotopes": [
+    {
+      "name": "Cobalt-60",
+      "half_life": "5.27 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [1173.2, 1332.5],
+      "is_natural": false
+    },
+    {
+      "name": "Caesium-137",
+      "half_life": "30.17 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [661.7],
+      "is_natural": false
+    },
+    {
+      "name": "Sodium-22",
+      "half_life": "2.60 years",
+      "decay_modes": ["Beta+", "EC"],
+      "gamma_energies": [511.0, 1274.5],
+      "is_natural": false
+    },
+    {
+      "name": "Americium-241",
+      "half_life": "432.2 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [59.5],
+      "is_natural": false
+    },
+    {
+      "name": "Barium-133",
+      "half_life": "10.51 years",
+      "decay_modes": ["EC"],
+      "gamma_energies": [81.0, 276.4, 302.9, 356.0, 383.8],
+      "is_natural": false
+    },
+    {
+      "name": "Manganese-54",
+      "half_life": "312.3 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [834.8],
+      "is_natural": false
+    },
+    {
+      "name": "Iodine-131",
+      "half_life": "8.02 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [364.5, 637.0, 284.3],
+      "is_natural": false
+    },
+    {
+      "name": "Potassium-40",
+      "half_life": "1.248 billion years",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [1460.8],
+      "is_natural": true
+    },
+    {
+      "name": "Europium-152",
+      "half_life": "13.54 years",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [121.8, 344.3, 778.9, 964.1, 1085.8, 1112.1, 1408.0],
+      "is_natural": false
+    },
+    {
+      "name": "Radium-226",
+      "origin": "Uranium-238 Chain",
+      "half_life": "1600 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [186.2],
+      "is_natural": true
+    },
+    {
+      "name": "Thorium-232",
+      "origin": "Thorium-232 Chain",
+      "half_life": "14.05 billion years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [583.2, 911.2, 2614.5],
+      "is_natural": true
+    },
+    {
+      "name": "Uranium-238",
+      "origin": "Uranium-238 Chain",
+      "half_life": "4.468 billion years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [1001.0, 768.4],
+      "is_natural": true
+    },
+    {
+      "name": "Uranium-235",
+      "origin": "Uranium-235 Chain",
+      "half_life": "703.8 million years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [143.8, 185.7, 205.3],
+      "is_natural": true
+    },
+    {
+      "name": "Zinc-65",
+      "half_life": "244.1 days",
+      "decay_modes": ["EC", "Beta+"],
+      "gamma_energies": [511.0, 1115.5],
+      "is_natural": false
+    },
+    {
+      "name": "Technetium-99m",
+      "half_life": "6.01 hours",
+      "decay_modes": ["IT"],
+      "gamma_energies": [140.5],
+      "is_natural": false
+    },
+    {
+      "name": "Molybdenum-99",
+      "half_life": "2.75 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [181.1, 739.5, 777.9],
+      "is_natural": false
+    },
+    {
+      "name": "Gold-198",
+      "half_life": "2.70 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [411.8],
+      "is_natural": false
+    },
+    {
+      "name": "Chromium-51",
+      "half_life": "27.7 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [320.1],
+      "is_natural": false
+    },
+    {
+      "name": "Iron-59",
+      "half_life": "44.5 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [1099.2, 1291.6, 142.6],
+      "is_natural": false
+    },
+    {
+      "name": "Selenium-75",
+      "half_life": "119.8 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [136.0, 264.7, 279.5],
+      "is_natural": false
+    },
+    {
+      "name": "Antimony-124",
+      "half_life": "60.2 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [602.7, 1691.0],
+      "is_natural": false
+    },
+    {
+      "name": "Bismuth-207",
+      "half_life": "31.55 years",
+      "decay_modes": ["EC"],
+      "gamma_energies": [569.7, 1063.7, 1770.2],
+      "is_natural": false
+    },
+    {
+      "name": "Cadmium-109",
+      "half_life": "462.6 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [88.0],
+      "is_natural": false
+    },
+    {
+      "name": "Cerium-139",
+      "half_life": "137.6 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [165.9],
+      "is_natural": false
+    },
+    {
+      "name": "Mercury-203",
+      "half_life": "46.6 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [279.2],
+      "is_natural": false
+    },
+    {
+      "name": "Niobium-94",
+      "half_life": "20,300 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [702.6, 871.1],
+      "is_natural": false
+    },
+    {
+      "name": "Silver-110m",
+      "half_life": "249.8 days",
+      "decay_modes": ["IT", "Beta-"],
+      "gamma_energies": [657.8, 884.7, 937.5, 1384.3],
+      "is_natural": false
+    },
+    {
+      "name": "Strontium-85",
+      "half_life": "64.8 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [514.0],
+      "is_natural": false
+    },
+    {
+      "name": "Yttrium-88",
+      "half_life": "106.6 days",
+      "decay_modes": ["EC", "Beta+"],
+      "gamma_energies": [898.0, 1836.1],
+      "is_natural": false
+    },
+    {
+      "name": "Gallium-67",
+      "half_life": "3.26 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [93.3, 184.6, 300.2],
+      "is_natural": false
+    },
+    {
+      "name": "Indium-111",
+      "half_life": "2.80 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [171.3, 245.4],
+      "is_natural": false
+    },
+    {
+      "name": "Thallium-201",
+      "half_life": "3.04 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [135.3, 167.4],
+      "is_natural": false
+    },
+    {
+      "name": "Krypton-85",
+      "half_life": "10.76 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [514.0],
+      "is_natural": false
+    },
+    {
+      "name": "Xenon-133",
+      "half_life": "5.24 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [81.0],
+      "is_natural": false
+    },
+    {
+      "name": "Plutonium-239",
+      "half_life": "24,110 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [51.6, 129.3, 375.0, 413.7],
+      "is_natural": false
+    },
+    {
+      "name": "Neptunium-237",
+      "origin": "Neptunium-237 Chain",
+      "half_life": "2.14 million years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [29.4, 86.5],
+      "is_natural": false
+    },
+    {
+      "name": "Curium-244",
+      "half_life": "18.1 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [42.8],
+      "is_natural": false
+    },
+    {
+      "name": "Berkelium-249",
+      "half_life": "330 days",
+      "decay_modes": ["Beta-", "Alpha"],
+      "gamma_energies": [326.0],
+      "is_natural": false
+    },
+    {
+      "name": "Californium-252",
+      "half_life": "2.645 years",
+      "decay_modes": ["Alpha", "SF"],
+      "gamma_energies": [43.0, 100.0],
+      "is_natural": false
+    },
+    {
+      "name": "Protactinium-231",
+      "origin": "Uranium-235 Chain",
+      "half_life": "32,760 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [27.4, 300.0, 302.5],
+      "is_natural": true
+    },
+    {
+      "name": "Actinium-227",
+      "origin": "Uranium-235 Chain",
+      "half_life": "21.77 years",
+      "decay_modes": ["Beta-", "Alpha"],
+      "gamma_energies": [99.0, 236.0],
+      "is_natural": true
+    },
+    {
+      "name": "Lead-210",
+      "origin": "Uranium-238 Chain",
+      "half_life": "22.3 years",
+      "decay_modes": ["Beta-", "Alpha"],
+      "gamma_energies": [46.5],
+      "is_natural": true
+    },
+    {
+      "name": "Polonium-210",
+      "origin": "Uranium-238 Chain",
+      "half_life": "138.4 days",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [803.1],
+      "is_natural": true
+    },
+    {
+      "name": "Bismuth-214",
+      "origin": "Uranium-238 Chain",
+      "half_life": "19.9 minutes",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [609.3, 1120.3, 1764.5],
+      "is_natural": true
+    },
+    {
+      "name": "Lead-214",
+      "origin": "Uranium-238 Chain",
+      "half_life": "26.8 minutes",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [242.0, 295.2, 351.9],
+      "is_natural": true
+    },
+    {
+      "name": "Thallium-208",
+      "origin": "Thorium-232 Chain",
+      "half_life": "3.05 minutes",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [583.2, 860.6, 2614.5],
+      "is_natural": true
+    },
+    {
+      "name": "Actinium-228",
+      "origin": "Thorium-232 Chain",
+      "half_life": "6.15 hours",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [911.2, 969.0],
+      "is_natural": true
+    },
+    {
+      "name": "Francium-223",
+      "origin": "Uranium-235 Chain",
+      "half_life": "22.0 minutes",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [50.0, 80.0, 219.0],
+      "is_natural": true
+    },
+    {
+      "name": "Ruthenium-106",
+      "half_life": "373.6 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [511.9, 621.8],
+      "is_natural": false
+    },
+    {
+      "name": "Rhodium-106",
+      "half_life": "29.8 seconds",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [511.9, 621.8, 1050.0],
+      "is_natural": false
+    },
+    {
+      "name": "Zirconium-95",
+      "half_life": "64.0 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [724.2, 756.7],
+      "is_natural": false
+    },
+    {
+      "name": "Niobium-95",
+      "half_life": "35.0 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [765.8],
+      "is_natural": false
+    },
+    {
+      "name": "Cerium-144",
+      "half_life": "284.9 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [133.5],
+      "is_natural": false
+    },
+    {
+      "name": "Praseodymium-144",
+      "half_life": "17.3 minutes",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [696.5, 1489.0, 2185.7],
+      "is_natural": false
+    },
+    {
+      "name": "Promethium-147",
+      "half_life": "2.62 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [121.2],
+      "is_natural": false
+    },
+    {
+      "name": "Samarium-151",
+      "half_life": "90 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [21.5],
+      "is_natural": false
+    },
+    {
+      "name": "Europium-154",
+      "half_life": "8.59 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [123.1, 723.3, 1004.7, 1274.4],
+      "is_natural": false
+    },
+    {
+      "name": "Europium-155",
+      "half_life": "4.76 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [86.5, 105.3],
+      "is_natural": false
+    },
+    {
+      "name": "Gadolinium-153",
+      "half_life": "240.4 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [97.4, 103.2],
+      "is_natural": false
+    },
+    {
+      "name": "Terbium-160",
+      "half_life": "72.3 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [298.6, 879.4, 966.2],
+      "is_natural": false
+    },
+    {
+      "name": "Holmium-166m",
+      "half_life": "1200 years",
+      "decay_modes": ["IT", "Beta-"],
+      "gamma_energies": [184.4, 410.7, 711.6, 815.8],
+      "is_natural": false
+    },
+    {
+      "name": "Thulium-170",
+      "half_life": "128.6 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [84.3],
+      "is_natural": false
+    },
+    {
+      "name": "Lutetium-177",
+      "half_life": "6.65 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [112.9, 208.4],
+      "is_natural": false
+    },
+    {
+      "name": "Hafnium-175",
+      "half_life": "70 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [343.4],
+      "is_natural": false
+    },
+    {
+      "name": "Tantalum-182",
+      "half_life": "114.4 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [100.1, 222.1, 1121.3, 1221.4],
+      "is_natural": false
+    },
+    {
+      "name": "Tungsten-181",
+      "half_life": "121.2 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [136.2, 152.2],
+      "is_natural": false
+    },
+    {
+      "name": "Rhenium-186",
+      "half_life": "3.72 days",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [137.2],
+      "is_natural": false
+    },
+    {
+      "name": "Osmium-191",
+      "half_life": "15.4 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [129.4],
+      "is_natural": false
+    },
+    {
+      "name": "Iridium-192",
+      "half_life": "73.8 days",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [295.9, 308.5, 316.5, 468.1, 604.4],
+      "is_natural": false
+    },
+    {
+      "name": "Platinum-195m",
+      "half_life": "4.0 days",
+      "decay_modes": ["IT"],
+      "gamma_energies": [30.8, 98.9],
+      "is_natural": false
+    },
+    {
+      "name": "Thallium-204",
+      "half_life": "3.78 years",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Scandium-46",
+      "half_life": "83.8 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [889.3, 1120.5],
+      "is_natural": false
+    },
+    {
+      "name": "Vanadium-48",
+      "half_life": "16.0 days",
+      "decay_modes": ["Beta+", "EC"],
+      "gamma_energies": [511.0, 983.5, 1312.1],
+      "is_natural": false
+    },
+    {
+      "name": "Arsenic-74",
+      "half_life": "17.8 days",
+      "decay_modes": ["Beta+", "EC", "Beta-"],
+      "gamma_energies": [595.8, 634.8],
+      "is_natural": false
+    },
+    {
+      "name": "Bromine-82",
+      "half_life": "1.47 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [554.3, 776.5, 1317.5],
+      "is_natural": false
+    },
+    {
+      "name": "Rubidium-86",
+      "half_life": "18.7 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [1076.6],
+      "is_natural": false
+    },
+    {
+      "name": "Strontium-90",
+      "half_life": "28.8 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Yttrium-90",
+      "half_life": "2.67 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Technetium-99",
+      "half_life": "211,100 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Ruthenium-103",
+      "half_life": "39.3 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [497.1],
+      "is_natural": false
+    },
+    {
+      "name": "Palladium-103",
+      "half_life": "17.0 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [39.8],
+      "is_natural": false
+    },
+    {
+      "name": "Tin-113",
+      "half_life": "115.1 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [391.7],
+      "is_natural": false
+    },
+    {
+      "name": "Indium-113m",
+      "half_life": "1.66 hours",
+      "decay_modes": ["IT"],
+      "gamma_energies": [391.7],
+      "is_natural": false
+    },
+    {
+      "name": "Antimony-125",
+      "half_life": "2.76 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [427.9, 463.4, 600.6, 635.9],
+      "is_natural": false
+    },
+    {
+      "name": "Tellurium-123m",
+      "half_life": "119.2 days",
+      "decay_modes": ["IT"],
+      "gamma_energies": [159.0],
+      "is_natural": false
+    },
+    {
+      "name": "Iodine-125",
+      "half_life": "59.4 days",
+      "decay_modes": ["EC"],
+      "gamma_energies": [35.5],
+      "is_natural": false
+    },
+    {
+      "name": "Iodine-129",
+      "half_life": "15.7 million years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [39.6],
+      "is_natural": false
+    },
+    {
+      "name": "Caesium-134",
+      "half_life": "2.06 years",
+      "decay_modes": ["Beta-", "EC"],
+      "gamma_energies": [569.3, 604.7, 795.8, 1365.2],
+      "is_natural": false
+    },
+    {
+      "name": "Cerium-141",
+      "half_life": "32.5 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [145.4],
+      "is_natural": false
+    },
+    {
+      "name": "Samarium-153",
+      "half_life": "1.94 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [69.7, 103.2],
+      "is_natural": false
+    },
+    {
+      "name": "Tungsten-185",
+      "half_life": "75.1 days",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [125.3],
+      "is_natural": false
+    },
+    {
+      "name": "Carbon-14",
+      "half_life": "5730 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": true
+    },
+    {
+      "name": "Chlorine-36",
+      "half_life": "301,000 years",
+      "decay_modes": ["Beta-", "EC", "Beta+"],
+      "gamma_energies": [],
+      "is_natural": true
+    },
+    {
+      "name": "Calcium-41",
+      "half_life": "102,000 years",
+      "decay_modes": ["EC"],
+      "gamma_energies": [],
+      "is_natural": true
+    },
+    {
+      "name": "Nickel-59",
+      "half_life": "76,000 years",
+      "decay_modes": ["EC"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Nickel-63",
+      "half_life": "100.1 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Selenium-79",
+      "half_life": "327,000 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Zirconium-93",
+      "half_life": "1.53 million years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Palladium-107",
+      "half_life": "6.5 million years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [],
+      "is_natural": false
+    },
+    {
+      "name": "Tin-126",
+      "half_life": "230,000 years",
+      "decay_modes": ["Beta-"],
+      "gamma_energies": [87.5],
+      "is_natural": false
+    },
+    {
+      "name": "Plutonium-238",
+      "half_life": "87.7 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [43.5, 99.9, 152.7],
+      "is_natural": false
+    },
+    {
+      "name": "Plutonium-240",
+      "half_life": "6561 years",
+      "decay_modes": ["Alpha"],
+      "gamma_energies": [45.2, 104.2],
+      "is_natural": false
+    }
+  ]
+}
