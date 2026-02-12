@@ -2,6 +2,8 @@
 
 A macOS application for real-time gamma spectroscopy using RadiaCode devices. This project consists of a Python backend for hardware interfacing and data processing, and a native Swift frontend for visualization and control.
 
+<img width="1371" height="838" alt="image" src="https://github.com/user-attachments/assets/8bfd9014-ebae-495d-a3ea-0afdd044c65d" />
+
 ## Architecture Overview
 
 The system is divided into two distinct components that communicate via a local WebSocket connection.
@@ -21,8 +23,6 @@ The backend is responsible for all hardware communication and heavy mathematical
 ### Frontend (macOS / Swift)
 
 The frontend provides the user interface and data visualization.
-
-<img width="1371" height="838" alt="image" src="https://github.com/user-attachments/assets/8bfd9014-ebae-495d-a3ea-0afdd044c65d" />
 
 * **Native UI**: Built with SwiftUI for a responsive macOS experience.
 * **Data Visualization**: Renders real-time spectral charts and data points.
