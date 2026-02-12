@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		691C1F522F3AFE6D00DE1558 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 691C1F512F3AFE6D00DE1558 /* Starscream */; };
 		691C1F552F3B064300DE1558 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 691C1F542F3B064300DE1558 /* SwiftyJSON */; };
-		69BE44E62F3D7B210050C444 /* PythonServer in Resources */ = {isa = PBXBuildFile; fileRef = 69BE44E52F3D7B210050C444 /* PythonServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		694666172F3AFCB300257E74 /* RadiaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694666262F3AFCB400257E74 /* RadiaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694666302F3AFCB400257E74 /* RadiaMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69BE44E52F3D7B210050C444 /* PythonServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PythonServer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -91,7 +89,6 @@
 		6946660E2F3AFCB300257E74 = {
 			isa = PBXGroup;
 			children = (
-				69BE44E52F3D7B210050C444 /* PythonServer */,
 				694666192F3AFCB300257E74 /* RadiaMac */,
 				694666292F3AFCB400257E74 /* RadiaMacTests */,
 				694666332F3AFCB400257E74 /* RadiaMacUITests */,
@@ -236,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69BE44E62F3D7B210050C444 /* PythonServer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

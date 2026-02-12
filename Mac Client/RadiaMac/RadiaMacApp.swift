@@ -11,16 +11,13 @@ import SwiftData
 @main
 
 class AppDelegate: NSObject, NSApplicationDelegate {
-    
-    let serverManager = ServerManager()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         
-        serverManager.startServer()
     }
 
     func applicationWillTerminate(_ notification: Notification) {
-        serverManager.stopServer()
+        
     }
 }
 
