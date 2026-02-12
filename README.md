@@ -44,4 +44,4 @@ The frontend provides the user interface and data visualization.
 
 1.  Ensure the Python environment is set up with the required dependencies.
 2.  The application uses a local WebSocket connection (ws://localhost:8945).
-3.  The Swift application is designed to launch the Python backend automatically upon startup.
+3.  For now, you must manually open the Python server (one click process) to start the days collection and then you can use the interface.
