@@ -22,6 +22,8 @@ The backend is responsible for all hardware communication and heavy mathematical
 
 The frontend provides the user interface and data visualization.
 
+<img width="1371" height="838" alt="image" src="https://github.com/user-attachments/assets/8bfd9014-ebae-495d-a3ea-0afdd044c65d" />
+
 * **Native UI**: Built with SwiftUI for a responsive macOS experience.
 * **Data Visualization**: Renders real-time spectral charts and data points.
 * **Process Management**: Manages the lifecycle of the Python backend process.
