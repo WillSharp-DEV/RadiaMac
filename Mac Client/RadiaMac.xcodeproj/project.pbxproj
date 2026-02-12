@@ -7,62 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		694819E52E4C50670043137E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694819E42E4C50670043137E /* Info.plist */; };
-		694819E62E4C50670043137E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694819E42E4C50670043137E /* Info.plist */; };
-		694819E72E4C50670043137E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694819E42E4C50670043137E /* Info.plist */; };
-		69481A0F2E4C51780043137E /* Python in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69481A0E2E4C51780043137E /* Python */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		691C1F522F3AFE6D00DE1558 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 691C1F512F3AFE6D00DE1558 /* Starscream */; };
+		691C1F552F3B064300DE1558 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 691C1F542F3B064300DE1558 /* SwiftyJSON */; };
+		69BE44E62F3D7B210050C444 /* PythonServer in Resources */ = {isa = PBXBuildFile; fileRef = 69BE44E52F3D7B210050C444 /* PythonServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69592CB32E4C4E40000FEBA4 /* PBXContainerItemProxy */ = {
+		694666272F3AFCB400257E74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 69592C9A2E4C4E3E000FEBA4 /* Project object */;
+			containerPortal = 6946660F2F3AFCB300257E74 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 69592CA12E4C4E3E000FEBA4;
+			remoteGlobalIDString = 694666162F3AFCB300257E74;
 			remoteInfo = RadiaMac;
 		};
-		69592CBD2E4C4E40000FEBA4 /* PBXContainerItemProxy */ = {
+		694666312F3AFCB400257E74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 69592C9A2E4C4E3E000FEBA4 /* Project object */;
+			containerPortal = 6946660F2F3AFCB300257E74 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 69592CA12E4C4E3E000FEBA4;
+			remoteGlobalIDString = 694666162F3AFCB300257E74;
 			remoteInfo = RadiaMac;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		69481A0D2E4C51670043137E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-				69481A0F2E4C51780043137E /* Python in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		694819E42E4C50670043137E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		69481A0E2E4C51780043137E /* Python */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Python; path = RadiaMac/Python; sourceTree = "<group>"; };
-		69592CA22E4C4E3E000FEBA4 /* RadiaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69592CB22E4C4E40000FEBA4 /* RadiaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69592CBC2E4C4E40000FEBA4 /* RadiaMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		694666172F3AFCB300257E74 /* RadiaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		694666262F3AFCB400257E74 /* RadiaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		694666302F3AFCB400257E74 /* RadiaMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiaMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BE44E52F3D7B210050C444 /* PythonServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PythonServer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		69592CA42E4C4E3E000FEBA4 /* RadiaMac */ = {
+		694666192F3AFCB300257E74 /* RadiaMac */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RadiaMac;
 			sourceTree = "<group>";
 		};
-		69592CB52E4C4E40000FEBA4 /* RadiaMacTests */ = {
+		694666292F3AFCB400257E74 /* RadiaMacTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RadiaMacTests;
 			sourceTree = "<group>";
 		};
-		69592CBF2E4C4E40000FEBA4 /* RadiaMacUITests */ = {
+		694666332F3AFCB400257E74 /* RadiaMacUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RadiaMacUITests;
 			sourceTree = "<group>";
@@ -70,21 +55,23 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69592C9F2E4C4E3E000FEBA4 /* Frameworks */ = {
+		694666142F3AFCB300257E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C1F552F3B064300DE1558 /* SwiftyJSON in Frameworks */,
+				691C1F522F3AFE6D00DE1558 /* Starscream in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694666232F3AFCB400257E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69592CAF2E4C4E40000FEBA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69592CB92E4C4E40000FEBA4 /* Frameworks */ = {
+		6946662D2F3AFCB400257E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,24 +81,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69592C992E4C4E3E000FEBA4 = {
+		691C1F502F3AFE6D00DE1558 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69481A0E2E4C51780043137E /* Python */,
-				694819E42E4C50670043137E /* Info.plist */,
-				69592CA42E4C4E3E000FEBA4 /* RadiaMac */,
-				69592CB52E4C4E40000FEBA4 /* RadiaMacTests */,
-				69592CBF2E4C4E40000FEBA4 /* RadiaMacUITests */,
-				69592CA32E4C4E3E000FEBA4 /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6946660E2F3AFCB300257E74 = {
+			isa = PBXGroup;
+			children = (
+				69BE44E52F3D7B210050C444 /* PythonServer */,
+				694666192F3AFCB300257E74 /* RadiaMac */,
+				694666292F3AFCB400257E74 /* RadiaMacTests */,
+				694666332F3AFCB400257E74 /* RadiaMacUITests */,
+				691C1F502F3AFE6D00DE1558 /* Frameworks */,
+				694666182F3AFCB300257E74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		69592CA32E4C4E3E000FEBA4 /* Products */ = {
+		694666182F3AFCB300257E74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69592CA22E4C4E3E000FEBA4 /* RadiaMac.app */,
-				69592CB22E4C4E40000FEBA4 /* RadiaMacTests.xctest */,
-				69592CBC2E4C4E40000FEBA4 /* RadiaMacUITests.xctest */,
+				694666172F3AFCB300257E74 /* RadiaMac.app */,
+				694666262F3AFCB400257E74 /* RadiaMacTests.xctest */,
+				694666302F3AFCB400257E74 /* RadiaMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,162 +113,165 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69592CA12E4C4E3E000FEBA4 /* RadiaMac */ = {
+		694666162F3AFCB300257E74 /* RadiaMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69592CC62E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMac" */;
+			buildConfigurationList = 6946663A2F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMac" */;
 			buildPhases = (
-				69592C9E2E4C4E3E000FEBA4 /* Sources */,
-				69592C9F2E4C4E3E000FEBA4 /* Frameworks */,
-				69592CA02E4C4E3E000FEBA4 /* Resources */,
-				69481A0D2E4C51670043137E /* CopyFiles */,
+				694666132F3AFCB300257E74 /* Sources */,
+				694666142F3AFCB300257E74 /* Frameworks */,
+				694666152F3AFCB300257E74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				69592CA42E4C4E3E000FEBA4 /* RadiaMac */,
+				694666192F3AFCB300257E74 /* RadiaMac */,
 			);
 			name = RadiaMac;
 			packageProductDependencies = (
+				691C1F512F3AFE6D00DE1558 /* Starscream */,
+				691C1F542F3B064300DE1558 /* SwiftyJSON */,
 			);
 			productName = RadiaMac;
-			productReference = 69592CA22E4C4E3E000FEBA4 /* RadiaMac.app */;
+			productReference = 694666172F3AFCB300257E74 /* RadiaMac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69592CB12E4C4E40000FEBA4 /* RadiaMacTests */ = {
+		694666252F3AFCB400257E74 /* RadiaMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69592CC92E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMacTests" */;
+			buildConfigurationList = 6946663D2F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMacTests" */;
 			buildPhases = (
-				69592CAE2E4C4E40000FEBA4 /* Sources */,
-				69592CAF2E4C4E40000FEBA4 /* Frameworks */,
-				69592CB02E4C4E40000FEBA4 /* Resources */,
+				694666222F3AFCB400257E74 /* Sources */,
+				694666232F3AFCB400257E74 /* Frameworks */,
+				694666242F3AFCB400257E74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				69592CB42E4C4E40000FEBA4 /* PBXTargetDependency */,
+				694666282F3AFCB400257E74 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				69592CB52E4C4E40000FEBA4 /* RadiaMacTests */,
+				694666292F3AFCB400257E74 /* RadiaMacTests */,
 			);
 			name = RadiaMacTests;
 			packageProductDependencies = (
 			);
 			productName = RadiaMacTests;
-			productReference = 69592CB22E4C4E40000FEBA4 /* RadiaMacTests.xctest */;
+			productReference = 694666262F3AFCB400257E74 /* RadiaMacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		69592CBB2E4C4E40000FEBA4 /* RadiaMacUITests */ = {
+		6946662F2F3AFCB400257E74 /* RadiaMacUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69592CCC2E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMacUITests" */;
+			buildConfigurationList = 694666402F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMacUITests" */;
 			buildPhases = (
-				69592CB82E4C4E40000FEBA4 /* Sources */,
-				69592CB92E4C4E40000FEBA4 /* Frameworks */,
-				69592CBA2E4C4E40000FEBA4 /* Resources */,
+				6946662C2F3AFCB400257E74 /* Sources */,
+				6946662D2F3AFCB400257E74 /* Frameworks */,
+				6946662E2F3AFCB400257E74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				69592CBE2E4C4E40000FEBA4 /* PBXTargetDependency */,
+				694666322F3AFCB400257E74 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				69592CBF2E4C4E40000FEBA4 /* RadiaMacUITests */,
+				694666332F3AFCB400257E74 /* RadiaMacUITests */,
 			);
 			name = RadiaMacUITests;
 			packageProductDependencies = (
 			);
 			productName = RadiaMacUITests;
-			productReference = 69592CBC2E4C4E40000FEBA4 /* RadiaMacUITests.xctest */;
+			productReference = 694666302F3AFCB400257E74 /* RadiaMacUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		69592C9A2E4C4E3E000FEBA4 /* Project object */ = {
+		6946660F2F3AFCB300257E74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					69592CA12E4C4E3E000FEBA4 = {
-						CreatedOnToolsVersion = 16.4;
+					694666162F3AFCB300257E74 = {
+						CreatedOnToolsVersion = 26.2;
 					};
-					69592CB12E4C4E40000FEBA4 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 69592CA12E4C4E3E000FEBA4;
+					694666252F3AFCB400257E74 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 694666162F3AFCB300257E74;
 					};
-					69592CBB2E4C4E40000FEBA4 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 69592CA12E4C4E3E000FEBA4;
+					6946662F2F3AFCB400257E74 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 694666162F3AFCB300257E74;
 					};
 				};
 			};
-			buildConfigurationList = 69592C9D2E4C4E3E000FEBA4 /* Build configuration list for PBXProject "RadiaMac" */;
+			buildConfigurationList = 694666122F3AFCB300257E74 /* Build configuration list for PBXProject "RadiaMac" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 69592C992E4C4E3E000FEBA4;
+			mainGroup = 6946660E2F3AFCB300257E74;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				694666432F3AFCE700257E74 /* XCRemoteSwiftPackageReference "Starscream" */,
+				691C1F532F3B061300DE1558 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 69592CA32E4C4E3E000FEBA4 /* Products */;
+			productRefGroup = 694666182F3AFCB300257E74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69592CA12E4C4E3E000FEBA4 /* RadiaMac */,
-				69592CB12E4C4E40000FEBA4 /* RadiaMacTests */,
-				69592CBB2E4C4E40000FEBA4 /* RadiaMacUITests */,
+				694666162F3AFCB300257E74 /* RadiaMac */,
+				694666252F3AFCB400257E74 /* RadiaMacTests */,
+				6946662F2F3AFCB400257E74 /* RadiaMacUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69592CA02E4C4E3E000FEBA4 /* Resources */ = {
+		694666152F3AFCB300257E74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694819E52E4C50670043137E /* Info.plist in Resources */,
+				69BE44E62F3D7B210050C444 /* PythonServer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69592CB02E4C4E40000FEBA4 /* Resources */ = {
+		694666242F3AFCB400257E74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694819E62E4C50670043137E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69592CBA2E4C4E40000FEBA4 /* Resources */ = {
+		6946662E2F3AFCB400257E74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694819E72E4C50670043137E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69592C9E2E4C4E3E000FEBA4 /* Sources */ = {
+		694666132F3AFCB300257E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69592CAE2E4C4E40000FEBA4 /* Sources */ = {
+		694666222F3AFCB400257E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69592CB82E4C4E40000FEBA4 /* Sources */ = {
+		6946662C2F3AFCB400257E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,20 +281,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69592CB42E4C4E40000FEBA4 /* PBXTargetDependency */ = {
+		694666282F3AFCB400257E74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69592CA12E4C4E3E000FEBA4 /* RadiaMac */;
-			targetProxy = 69592CB32E4C4E40000FEBA4 /* PBXContainerItemProxy */;
+			target = 694666162F3AFCB300257E74 /* RadiaMac */;
+			targetProxy = 694666272F3AFCB400257E74 /* PBXContainerItemProxy */;
 		};
-		69592CBE2E4C4E40000FEBA4 /* PBXTargetDependency */ = {
+		694666322F3AFCB400257E74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69592CA12E4C4E3E000FEBA4 /* RadiaMac */;
-			targetProxy = 69592CBD2E4C4E40000FEBA4 /* PBXContainerItemProxy */;
+			target = 694666162F3AFCB300257E74 /* RadiaMac */;
+			targetProxy = 694666312F3AFCB400257E74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		69592CC42E4C4E40000FEBA4 /* Debug */ = {
+		694666382F3AFCB400257E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,10 +330,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = MV8MW4W82T;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -355,18 +348,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_DEFINITION_PLIST = "";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		69592CC52E4C4E40000FEBA4 /* Release */ = {
+		694666392F3AFCB400257E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,11 +394,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MV8MW4W82T;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -418,94 +406,99 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_DEFINITION_PLIST = "";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		69592CC72E4C4E40000FEBA4 /* Debug */ = {
+		6946663B2F3AFCB400257E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = RadiaMac/RadiaMac.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MV8MW4W82T;
-				ENABLE_APP_SANDBOX = NO;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
 				ENABLE_RESOURCE_ACCESS_USB = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				ENABLE_USER_SELECTED_FILES = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Info.plist;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMac;
-				PRODUCT_DEFINITION_PLIST = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		69592CC82E4C4E40000FEBA4 /* Release */ = {
+		6946663C2F3AFCB400257E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = RadiaMac/RadiaMac.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MV8MW4W82T;
-				ENABLE_APP_SANDBOX = NO;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
 				ENABLE_RESOURCE_ACCESS_USB = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				ENABLE_USER_SELECTED_FILES = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Info.plist;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMac;
-				PRODUCT_DEFINITION_PLIST = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		69592CCA2E4C4E40000FEBA4 /* Debug */ = {
+		6946663E2F3AFCB400257E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,17 +506,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MV8MW4W82T;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadiaMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadiaMac";
 			};
 			name = Debug;
 		};
-		69592CCB2E4C4E40000FEBA4 /* Release */ = {
+		6946663F2F3AFCB400257E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,17 +527,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MV8MW4W82T;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadiaMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadiaMac";
 			};
 			name = Release;
 		};
-		69592CCD2E4C4E40000FEBA4 /* Debug */ = {
+		694666412F3AFCB400257E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -551,13 +550,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMacUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = RadiaMac;
 			};
 			name = Debug;
 		};
-		69592CCE2E4C4E40000FEBA4 /* Release */ = {
+		694666422F3AFCB400257E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -567,7 +569,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = none.RadiaMacUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = RadiaMac;
 			};
@@ -576,43 +581,75 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69592C9D2E4C4E3E000FEBA4 /* Build configuration list for PBXProject "RadiaMac" */ = {
+		694666122F3AFCB300257E74 /* Build configuration list for PBXProject "RadiaMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69592CC42E4C4E40000FEBA4 /* Debug */,
-				69592CC52E4C4E40000FEBA4 /* Release */,
+				694666382F3AFCB400257E74 /* Debug */,
+				694666392F3AFCB400257E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69592CC62E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMac" */ = {
+		6946663A2F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69592CC72E4C4E40000FEBA4 /* Debug */,
-				69592CC82E4C4E40000FEBA4 /* Release */,
+				6946663B2F3AFCB400257E74 /* Debug */,
+				6946663C2F3AFCB400257E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69592CC92E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMacTests" */ = {
+		6946663D2F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69592CCA2E4C4E40000FEBA4 /* Debug */,
-				69592CCB2E4C4E40000FEBA4 /* Release */,
+				6946663E2F3AFCB400257E74 /* Debug */,
+				6946663F2F3AFCB400257E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69592CCC2E4C4E40000FEBA4 /* Build configuration list for PBXNativeTarget "RadiaMacUITests" */ = {
+		694666402F3AFCB400257E74 /* Build configuration list for PBXNativeTarget "RadiaMacUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69592CCD2E4C4E40000FEBA4 /* Debug */,
-				69592CCE2E4C4E40000FEBA4 /* Release */,
+				694666412F3AFCB400257E74 /* Debug */,
+				694666422F3AFCB400257E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		691C1F532F3B061300DE1558 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		694666432F3AFCE700257E74 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		691C1F512F3AFE6D00DE1558 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694666432F3AFCE700257E74 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		691C1F542F3B064300DE1558 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 691C1F532F3B061300DE1558 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 69592C9A2E4C4E3E000FEBA4 /* Project object */;
+	rootObject = 6946660F2F3AFCB300257E74 /* Project object */;
 }

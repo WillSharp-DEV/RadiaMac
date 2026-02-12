@@ -16,7 +16,6 @@
       "size" : "32x32"
     },
     {
-      "filename" : "Small.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
@@ -27,7 +26,6 @@
       "size" : "128x128"
     },
     {
-      "filename" : "nEq.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
@@ -38,7 +36,6 @@
       "size" : "256x256"
     },
     {
-      "filename" : "Untitled_Artwork.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
@@ -49,7 +46,6 @@
       "size" : "512x512"
     },
     {
-      "filename" : "65.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
