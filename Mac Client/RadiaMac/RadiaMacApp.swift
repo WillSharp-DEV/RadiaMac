@@ -10,19 +10,8 @@ import SwiftData
 
 @main
 
-class AppDelegate: NSObject, NSApplicationDelegate {
-
-    func applicationDidFinishLaunching(_ notification: Notification) {
-        
-    }
-
-    func applicationWillTerminate(_ notification: Notification) {
-        
-    }
-}
-
 struct RadiaMacApp: App {
-    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
