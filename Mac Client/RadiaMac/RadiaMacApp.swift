@@ -6,29 +6,31 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
-
 struct RadiaMacApp: App {
-    
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @StateObject private var socketData = SocketManager()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(socketData)
         }
-        .modelContainer(sharedModelContainer)
+
+        Window("Live Spectrogram", id: "spectrogramWindow") {
+            PopOutSpectrogramView().environmentObject(socketData)
+        }
+        
+        Window("CPS Graph", id: "cpsWindow") {
+            PopOutCpsView().environmentObject(socketData)
+        }
+        
+        Window("Dosage Graph", id: "dosageWindow") {
+            PopOutDosageView().environmentObject(socketData)
+        }
+        
+        Window("Live Spectrum", id: "spectrumWindow") {
+            PopOutSpectrumView().environmentObject(socketData)
+        }
     }
 }
