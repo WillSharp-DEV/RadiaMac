@@ -22,7 +22,7 @@ Includes features like thermal coloring settings (Log, Linear, Sqrt) to help vis
 
 ### Live Spectrum Graph
 Visualization of accumulated counts per channel. Also includes a visual marker for all detected peaks for quick reference.
-<img width="1441" height="978" alt="Cesium 137 spectrum graph demonstration." src="https://github.com/user-attachments/assets/151962cc-ae8b-47ed-8335-a429262d98ef" />
+<img width="1441" height="978" alt="Uranium spectrum graph demonstration." src="https://github.com/user-attachments/assets/59a6612f-646c-42a4-a673-8caf08ee796e" />
 
 ### Telemetry & Tracking
 Monitor your environment with dedicated graphs. Hover over a specific point in time to get an exact timestamp and its value at that moment.
