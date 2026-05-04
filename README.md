@@ -17,7 +17,8 @@ RadiaMac is a macOS companion application designed for real-time radiation analy
 
 ### Spectrogram
 Includes features like thermal coloring settings (Log, Linear, Sqrt) to help visualize intensity variations over time.
-<img width="1441" height="978" alt="Cesium 137 spectrogram demonstration." src="https://github.com/user-attachments/assets/d5fdd667-a893-460a-b3bd-30160e4deb10" />
+<img width="1441" height="978" alt="Uranium sample spectrogram demonstration." src="https://github.com/user-attachments/assets/443db2c0-0e76-48e8-9627-f9989873493a" />
+
 
 ### Live Spectrum Graph
 Visualization of accumulated counts per channel. Also includes a visual marker for all detected peaks for quick reference.
