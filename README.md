@@ -1,47 +1,45 @@
 # RadiaMac
 
-A macOS application for real-time gamma spectroscopy using RadiaCode devices. This project consists of a Python backend for hardware interfacing and data processing, and a native Swift frontend for visualization and control.
+RadiaMac is a macOS companion application designed for real-time radiation analysis, spectrum visualization, and dosimetry logging. It connects to your local spectrometer server to provide live telemetry, peak identification, and historical data tracking through an intuitive, native interface.
 
-<img width="1371" height="838" alt="image" src="https://github.com/user-attachments/assets/8bfd9014-ebae-495d-a3ea-0afdd044c65d" />
+## Core Features
 
-## Architecture Overview
+* **Spectrogram:** Time-series visualization with adjustable thermal coloring.
+* **Spectrum Graphing:** Live view of accumulated counts per channel with visual peak markers.
+* **Live Telemetry Graphs:** Real-time plotting for Dosage, Counts per Second (CPS), and Accumulated Dosage.
+* **Peak Identification (WIP):** Automated isotope identification based on detected energy peaks.
+* **Multi-Window Support:** Pop-out graphing capabilities for advanced, multi-monitor workspace management.
+* **Server Health Monitoring:** Active connection tracking with persistent UI warnings and mid-analysis drop alerts.
 
-The system is divided into two distinct components that communicate via a local WebSocket connection.
+---
 
-### Backend (Python)
+## Visualizing Your Data
 
-The backend is responsible for all hardware communication and heavy mathematical processing.
+### Spectrogram
+Includes features like thermal coloring settings (Log, Linear, Sqrt) to help visualize intensity variations over time.
+<img width="1441" height="978" alt="Cesium 137 spectrogram demonstration." src="https://github.com/user-attachments/assets/d5fdd667-a893-460a-b3bd-30160e4deb10" />
 
-* **Hardware Interface**: Connects to RadiaCode devices using the `radiacode` library.
-* **WebSocket Server**: Hosts a local server on port 8945 to stream data to the frontend.
-* **Spectrum Analysis**: Continuously acquires gamma spectrum data from the device.
-* **Energy Calibration**: Applies polynomial calibration (a0, a1, a2) to convert raw channels into energy levels.
-* **Peak Detection**: Uses `scipy.signal` and `numpy` to identify significant peaks in the spectrum.
-* **Isotope Identification**: Matches detected peaks against a library of known gamma-emitting isotopes.
-* **Dosimetry**: Tracks real-time Dose Rate and Count Rate (CPS).
+### Live Spectrum Graph
+Visualization of accumulated counts per channel. Also includes a visual marker for all detected peaks for quick reference.
+<img width="1441" height="978" alt="Cesium 137 spectrum graph demonstration." src="https://github.com/user-attachments/assets/151962cc-ae8b-47ed-8335-a429262d98ef" />
 
-### Frontend (macOS / Swift)
+### Telemetry & Tracking
+Monitor your environment with dedicated graphs. Hover over a specific point in time to get an exact timestamp and its value at that moment.
 
-The frontend provides the user interface and data visualization.
+**Dosage Graph**
+<img width="907" height="563" alt="Dosage graph." src="https://github.com/user-attachments/assets/8420e01c-4a1a-4c18-83da-847d28478046" />
 
-* **Native UI**: Built with SwiftUI for a responsive macOS experience.
-* **Data Visualization**: Renders real-time spectral charts and data points.
-* **Process Management**: Manages the lifecycle of the Python backend process.
-* **Telemetry Display**: Shows device serial number, current dosage, and count rates.
-* **Data Persistence**: Maintains a history of readings during the session.
+**CPS Graph**
+<img width="971" height="596" alt="CPS graph." src="https://github.com/user-attachments/assets/3d307f75-106f-44c0-b479-a9d987f97f87" />
 
-## Requirements
+**Accumulated Dosage Graph**
+<img width="907" height="563" alt="Accumulated dosage graph." src="https://github.com/user-attachments/assets/f41b2d53-d8a9-4696-8275-f18eeea75f52" />
 
-* **macOS**: 12.0 or later.
-* **Python**: 3.10 or later.
-* **Python Dependencies**:
-    * radiacode
-    * numpy
-    * scipy
-    * websockets
+### Peak Identification System
+Automated peak detection cross-references known energy signatures to suggest potential isotopes (e.g., Uranium sample shown below).
+<img width="1441" height="978" alt="Uranium sample peak identification." src="https://github.com/user-attachments/assets/e9e256de-4f71-481c-8c9a-f1f835eaa433" />
 
-## Usage
-
-1.  Ensure the Python environment is set up with the required dependencies.
-2.  The application uses a local WebSocket connection (ws://localhost:8945).
-3.  For now, you must manually open the Python server (one click process) to start the days collection and then you can use the interface.
+### Multi-Window Pop-out Capabilities
+Break out specific graphs into their own scalable windows to optimize your screen real estate and run concurrent analyses.
+<img width="1076" height="745" alt="Demonstration of spectrum graph in windowed popup." src="https://github.com/user-attachments/assets/87b6634a-fce3-464f-ad24-731432da8ca0" />
+<img width="1441" height="978" alt="Demonstration of spectrum graph in windowed popup." src="https://github.com/user-attachments/assets/f0a99122-83cf-4238-a4c9-5055ce912ca1" />
