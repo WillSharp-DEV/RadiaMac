@@ -59,6 +59,7 @@ Gone are the days of cluttered pop-up windows. RadiaMac utilizes a native sideba
 RadiaMac is no longer tethered to the same machine running the server. Use the new Configuration menu to enter your server's local IP address and monitor your spectrometer from anywhere on your Wi-Fi network.
 
 Ipad Demonstration:
-<img width="1376" height="1032" alt="Screenshot 2026-05-09 at 12 05 38 AM" src="https://github.com/user-attachments/assets/24b7404f-eee0-4895-8473-dd01a015f54b" />
+<img width="1376" height="1032" alt="Screenshot 2026-05-09 at 12 06 19 AM" src="https://github.com/user-attachments/assets/0c42a548-3119-49d6-a385-4882f01548c7" />
+
 
 
